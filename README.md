@@ -8,6 +8,7 @@ setwd("RFClassify")	#set the working directory
 source("RFClassify_Maxwins_Opt.txt")
 
 #**make sure the RHMEData file is in the working directory**
+
 VAdata<-read.table("RHMEData.txt", header=TRUE, sep = ",")
 
 
